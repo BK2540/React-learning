@@ -1,0 +1,53 @@
+.mainTitle{
+    font-size: 72px;
+}
+
+.container{
+    
+}
+
+.selectTitle{
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    gap: 50px;
+
+}
+
+.item{
+    border: 5px solid #e0e0e0;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+}
+
+.item:nth-child(1){
+    background: url("/FINISH.png")
+}
+.item:nth-child(2){
+    background: url("/app.PNG")
+}
+.item:nth-child(3){
+    background: url("/web.PNG")
+}
+
+
+.title{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.item:hover .title {
+    color: #ecb92a;
+}
